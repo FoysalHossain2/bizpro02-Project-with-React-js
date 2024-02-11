@@ -1,0 +1,15 @@
+.imgBefore {
+    position: relative;
+  }
+
+  .imgBefore::before{
+    position: absolute;
+    content: url('../../assets/AboutGroup1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 103px;
+    height: 98px;
+    margin-left: 506px;
+    margin-top: -97px;
+  }

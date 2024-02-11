@@ -1,0 +1,35 @@
+.beforeImg {
+  position: relative;
+}
+
+.beforeImg::before {
+  position: absolute;
+  content: url('../../assets/before.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  margin-top: -30px;
+  margin-left: 118px;
+}
+
+.bannerImg1 {
+  position: relative;
+}
+
+.bannerImg1::before{
+  position: absolute;
+  content: '';
+  background: url('../../assets/Group33760.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  max-width: 134px;
+  width: 134px;
+  height: 150px;
+  max-height: 150px;
+  margin-left: 630px;
+  margin-top: -34px;
+}
